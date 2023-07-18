@@ -26,7 +26,7 @@ This will start the server on localhost (usually http://localhost:3000 unless yo
 Visit the main page at http://localhost:3000 to view the glossary data table.
 
 ## Technologies
-Node.js
-Express.js
-EJS
+Node.js, 
+Express.js, 
+EJS, 
 Nodemon (for development)
