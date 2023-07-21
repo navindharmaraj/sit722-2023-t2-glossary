@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains an Express.js web application developed for SIT722 - DevOps Glossary T1.2 at Deakin University. The application uses EJS for views and displays a glossary data table based on an array returned from a service. This glossary is designed to provide comprehensive definitions and explanations of various DevOps terms and concepts.
+This repository contains an Express.js web application developed for SIT722 - DevOps Glossary at Deakin University. The application uses EJS for views and displays a glossary data table based on an array returned from a service. This glossary is designed to provide comprehensive definitions and explanations of various DevOps terms and concepts.
 
 ## Installation
 

@@ -21,10 +21,10 @@
       <tbody>
         <% data.forEach(function(item) { %>
           <tr>
-            <td><%= item.id %></td>
-            <td><%= item.term %></td>
+            <td ><%= item.id %></td>
+            <td class="terms"><%= item.term %></td>
             <td><%= item.desc %></td>
-            <td><%= item.ref %></td>
+            <td class="ref"><%= item.ref %></td>
           </tr>
         <% }); %>
       </tbody>
