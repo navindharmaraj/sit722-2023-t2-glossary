@@ -60,5 +60,66 @@ module.exports.getGlossary = () => {
       desc: `In Agile project management, velocity refers to the amount of work a team can complete during a single sprint. It's typically measured in story points or work units and is used for planning and forecasting future sprints based on past performance.`,
       ref: `“Capacity vs Velocity,” Scrum.org. https://www.scrum.org/forum/scrum-forum/7293/capacity-vs-velocity (accessed Jul. 21, 2023).`,
     },
+    {
+      id: 11,
+      term: "Kanban",
+      desc: `Kanban is a project management tool that enables you to get a visual overview of your tasks at hand. It follows the Agile methodology and allows for incremental and continuous improvements. The method originated in Japan and focuses on limiting work-in-progress items, and leveraging visual project management.`,
+      ref: `Ahmad, Muhammad O., Markku Oivo, Jouni Markkula, and Kari Liukkunen. "Kanban in software development: A systematic literature review." In 2013 39th Euromicro Conference on Software Engineering and Advanced Applications, pp. 9-16. IEEE, 2013.`,
+    },
+    {
+      id: 12,
+      term: "User Story",
+      desc: `In software development and product management, a user story is an informal, natural language description of one or more features of a software system. User stories are often written from the perspective of an end user or user of a system.`,
+      ref: `"User Stories," Mountain Goat Software. https://www.mountaingoatsoftware.com/agile/user-stories (accessed Jul. 21, 2023).`,
+    },
+    {
+      id: 13,
+      term: "API",
+      desc: `An application programming interface (API) is a set of rules that allow different software applications to communicate with each other. It defines methods of communication between various software components.`,
+      ref: `T. Mikkonen, A. Taivalsaari, "Web APIs: From Desktops to Ubiquitous Computing," IEEE Computer, vol. 52, no. 2, pp. 86-89, 2019.`,
+    },
+    {
+      id: 14,
+      term: "DevOps",
+      desc: `DevOps is a set of practices that works to automate and integrate the processes between software development and IT teams, so they can build, test, and release software faster and more reliably. The term DevOps is a combination of two terms: development (Dev) and operations (Ops).`,
+      ref: `Kim, Gene. The Phoenix project: A novel about IT, DevOps, and helping your business win. IT Revolution, 2018.`,
+    },
+    {
+      id: 15,
+      term: "Microservices",
+      desc: `Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are highly maintainable and testable, loosely coupled, independently deployable, and organized around business capabilities.`,
+      ref: `Newman, Sam. Building microservices: designing fine-grained systems. " O'Reilly Media, Inc.", 2015.`,
+    },
+    {
+      id: 16,
+      term: "Docker",
+      desc: `Docker is an open-source platform that automates the deployment, scaling, and management of applications. It does this by encapsulating applications into containers, allowing them to be portable among any system running the Docker engine.`,
+      ref: `"What is Docker?," Docker Documentation. https://docs.docker.com/get-started/overview/ (accessed Jul. 21, 2023).`,
+    },
+    {
+      id: 17,
+      term: "GitHub",
+      desc: `GitHub is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as its own features.`,
+      ref: `Loeliger, Jon, and Matthew McCullough. Version Control with Git: Powerful tools and techniques for collaborative software development. " O'Reilly Media, Inc.", 2012.`,
+    },
+    {
+      id: 18,
+      term: "REST",
+      desc: `Representational State Transfer (REST) is an architectural style that defines a set of constraints to be used for creating web services. Web Services that conform to the REST architectural style, or RESTful web services, provide interoperability between computer systems on the Internet.`,
+      ref: `Fielding, Roy Thomas. "Architectural styles and the design of network-based software architectures." (2000).`,
+    },
+    {
+      id: 19,
+      term: "MVP",
+      desc: `A Minimum Viable Product (MVP) is a concept from Lean Startup that stresses the impact of learning in new product development. Eric Ries, defined an MVP as that version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort.`,
+      ref: `Ries, Eric. "The lean startup: How today's entrepreneurs use continuous innovation to create radically successful businesses." (2011).`,
+    },
+    {
+      id: 20,
+      term: "Pair Programming",
+      desc: `Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in.`,
+      ref: `"Pair Programming," Agile Alliance. https://www.agilealliance.org/glossary/pairing (accessed Jul. 21, 2023).`,
+    }
+    
   ];
 };

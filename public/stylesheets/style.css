@@ -9,3 +9,6 @@ a {
 .terms{font-weight: bolder;
 }
 .ref{font-style: italic;}
+.bg-blue td{
+  background-color: #cfeefc;
+}
