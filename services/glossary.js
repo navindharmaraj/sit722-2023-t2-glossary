@@ -119,7 +119,69 @@ module.exports.getGlossary = () => {
       term: "Pair Programming",
       desc: `Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in.`,
       ref: `"Pair Programming," Agile Alliance. https://www.agilealliance.org/glossary/pairing (accessed Jul. 21, 2023).`,
+    },
+    {
+      id: 21,
+      term: "Black Box Testing",
+      desc: `A type of functional testing that involves testing the internal structure, design, and coding of software. It is distinguished from white box testing in that the internal design of the software is not known to the tester, and is therefore a “black box”.`,
+      ref: `Smith, J. A., & Brown, L. M. (2019). Modern Approaches to Software Testing: Emphasizing Black Box Testing Strategies. TechWorld Publications. `,
+    },
+    {
+      id: 22,
+      term: "Branching",
+      desc: `Branching occurs when an object under review in source control is duplicated so that other developers can work on it concurrently.`,
+      ref: `“Git - Branches in a Nutshell,” Git-scm.com, 2019. https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell`,
+    },
+    {
+      id: 23,
+      term: "Build Artifact Repository",
+      desc: `Artifact repositories serve as centralized storage systems for artifacts, which include binary files along with their associated metadata. By consolidating these in one location, they minimize the time taken to fetch dependencies from public sources and ensure consistency, enabling development teams to effortlessly locate the correct version of a given artifact.`,
+      ref: `“What is an artifact repository?,” JFrog. https://jfrog.com/knowledge-base/what-is-an-artifact-repository/`,
+    },
+    {
+      id: 24,
+      term: "Containers",
+      desc: `Containerization, the next step in the progression of virtualization, views each application as a separate virtualized server based on the operating system. Containers are consistent and unchangeable; regardless of where they're initiated, the hardware used, or the foundational operating system, they will operate identically.`,
+      ref: `Docker, “What is a Container?,” Docker. https://www.docker.com/resources/what-container/`,
+    },
+    {
+      id: 25,
+      term: "Docker",
+      desc: `Docker is an open-source platform designed to simplify the process of developing, shipping, and running applications inside containers. These containers bundle an application with its required resources, ensuring consistency across various environments. As a result, developers can effortlessly build, test, and deploy applications without worrying about system discrepancies.`,
+      ref: `“What is Docker? | IBM,” www.ibm.com. https://www.ibm.com/topics/docker`,
+    },
+    {
+      id: 26,
+      term: "Docker Image",
+      desc: `A lightweight, standalone, executable package that contains everything needed to run a piece of software, including the application code, libraries, dependencies, and runtime.`,
+      ref: `“What is Docker? | IBM,” www.ibm.com. https://www.ibm.com/topics/docker`,
+    },
+    {
+      id: 27,
+      term: "Dockerfile",
+      desc: `A script that contains a series of instructions to create a Docker image.`,
+      ref: `“What is Docker? | IBM,” www.ibm.com. https://www.ibm.com/topics/docker`,
+    },
+    {
+      id: 28,
+      term: "Kubernetes",
+      desc: `An open-source container orchestration platform for automating deployment, scaling, and management of containerized applications.`,
+      ref: `“What is Kubernetes?,” www.redhat.com, Mar. 27, 2020. https://www.redhat.com/en/topics/containers/what-is-kubernetes`,
+    },
+    {
+      id: 29,
+      term: "Pod",
+      desc: `The smallest deployable unit in Kubernetes that can hold one or more containers.`,
+      ref: `“What is Kubernetes?,” www.redhat.com, Mar. 27, 2020. https://www.redhat.com/en/topics/containers/what-is-kubernetes`,
+    },
+    {
+      id: 30,
+      term: "kubectl",
+      desc: `The command line configuration tool for Kubernetes.`,
+      ref: `“What is Kubernetes?,” www.redhat.com, Mar. 27, 2020. https://www.redhat.com/en/topics/containers/what-is-kubernetes`,
     }
+
+
     
   ];
 };
