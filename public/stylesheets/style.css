@@ -13,4 +13,6 @@ a {
   background-color: #cfeefc;
 }.bg-green td{
   background-color: #c9fbdd;
+}.bg-red td{
+  background-color: #ffc6c6;
 }

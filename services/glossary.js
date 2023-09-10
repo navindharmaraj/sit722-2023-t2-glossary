@@ -179,9 +179,69 @@ module.exports.getGlossary = () => {
       term: "kubectl",
       desc: `The command line configuration tool for Kubernetes.`,
       ref: `“What is Kubernetes?,” www.redhat.com, Mar. 27, 2020. https://www.redhat.com/en/topics/containers/what-is-kubernetes`,
-    }
+    },
+    {
+      "id": 31,
+      "term": "Infrastructure as Code (IaC)",
+      "desc": "A method to provision and manage IT infrastructure using machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.",
+      "ref": "“Introduction to Infrastructure as Code (IAC),” www.microsoft.com, May 1, 2020. https://learn.microsoft.com/en-us/azure/developer/terraform/overview"
+    },
+    {
+      "id": 32,
+      "term": "Terraform Provider",
+      "desc": "Plugins for Terraform that allow for the full lifecycle management of resources in a service or platform.",
+      "ref": "“Providers,” www.terraform.io, Apr. 15, 2021. https://www.terraform.io/docs/providers/index.html"
+    },
+    {
+      "id": 33,
+      "term": "Terraform State",
+      "desc": "A persistent mapping of resource metadata to a configuration, which Terraform uses to map real-world resources to your configuration and to keep track of metadata.",
+      "ref": "“State,” www.terraform.io, Jan. 10, 2021. https://www.terraform.io/docs/state/index.html"
+    },
+    {
+      "id": 34,
+      "term": "Resource Group",
+      "desc": "A container in Azure that holds related resources for a solution.",
+      "ref": "“Resource groups,” docs.microsoft.com, Feb. 12, 2021. https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal"
+  },
+  {
+      "id": 35,
+      "term": "Azure Kubernetes Service (AKS)",
+      "desc": "A managed Kubernetes service in Azure that lets you deploy and manage containerized applications.",
+      "ref": "“About Azure Kubernetes Service (AKS),” docs.microsoft.com, Feb. 18, 2021. https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes"
+  },
+  {
+      "id": 36,
+      "term": "Azure Resource Manager (ARM)",
+      "desc": "The deployment and management service for Azure, which can manage resources in a subscription.",
+      "ref": "“Azure Resource Manager overview,” docs.microsoft.com, Jan. 28, 2021. https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview"
+  },
+  {
+      "id": 37,
+      "term": "Terraform Plan",
+      "desc": "A Terraform command that allows users to see which actions Terraform will undertake to realize the desired configuration.",
+      "ref": "“Command: plan,” www.terraform.io, Mar. 5, 2021. https://www.terraform.io/docs/cli/commands/plan.html"
+  },
+  {
+      "id": 38,
+      "term": "Terraform Module",
+      "desc": "Containers for multiple Terraform resources that are used together, allowing for the creation of reusable components.",
+      "ref": "“Modules,” www.terraform.io, Apr. 10, 2021. https://www.terraform.io/docs/modules/index.html"
+  },
+  {
+      "id": 39,
+      "term": "Azure Blob Storage",
+      "desc": "Microsoft's cloud-based object storage solution designed for large amounts of unstructured data.",
+      "ref": "“Introduction to Azure Blob storage,” docs.microsoft.com, Jan. 20, 2021. https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction"
+  },
+  {
+      "id": 40,
+      "term": "Azure Active Directory (AAD)",
+      "desc": "Microsoft's cloud-based identity and access management service.",
+      "ref": "“What is Azure Active Directory?,” docs.microsoft.com, Feb. 15, 2021. https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis"
+  }
 
 
-    
+
   ];
 };

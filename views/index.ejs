@@ -43,7 +43,15 @@
               <td><%= item.desc %></td>
               <td class="ref"><%= item.ref %></td>
             </tr>
-            <% } %>            
+            <% } %>   
+            <% if(index >= 30 && index <=39){%>
+              <tr class="bg-red">
+                <td ><%= item.id %></td>
+                <td class="terms"><%= item.term %></td>
+                <td><%= item.desc %></td>
+                <td class="ref"><%= item.ref %></td>
+              </tr>
+              <% } %>            
         <% }); %>
       </tbody>
     </table>
