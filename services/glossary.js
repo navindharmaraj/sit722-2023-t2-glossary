@@ -239,7 +239,67 @@ module.exports.getGlossary = () => {
       "term": "Azure Active Directory (AAD)",
       "desc": "Microsoft's cloud-based identity and access management service.",
       "ref": "“What is Azure Active Directory?,” docs.microsoft.com, Feb. 15, 2021. https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis"
-  }
+  },
+  {
+    "id": 41,
+    "term": "Grafana",
+    "desc": "An open-source platform for monitoring and observability, commonly used with time series databases like Prometheus.",
+    "ref": "“What is Grafana?,” www.redhat.com. https://www.redhat.com/en/topics/data-services/what-is-grafana"
+},
+{
+    "id": 42,
+    "term": "Prometheus",
+    "desc": "An open-source monitoring and alerting toolkit, often integrated with Kubernetes for cluster monitoring.",
+    "ref": "“Introduction to Prometheus,” prometheus.io, Feb. 21, 2022. https://prometheus.io/docs/introduction/overview/"
+},
+{
+    "id": 43,
+    "term": "Helm",
+    "desc": "A package manager for Kubernetes that allows developers and operators to easily package, configure, and deploy applications on Kubernetes clusters.",
+    "ref": "“What is Helm?,” helm.sh, May 1, 2022. https://helm.sh/docs/intro/using_helm/"
+},
+{
+    "id": 44,
+    "term": "Blue-Green Deployment",
+    "desc": "A release management strategy which reduces downtime by having two identical production environments, allowing for seamless switching between them.",
+    "ref": "T. Fernandez, “Continuous Blue-Green Deployments With Kubernetes,” Semaphore, Sep. 08, 2020. https://semaphoreci.com/blog/continuous-blue-green-deployments-with-kubernetes (accessed Sep. 16, 2023)."
+},
+{
+    "id": 45,
+    "term": "Canary Release",
+    "desc": "A technique to reduce the risk of introducing a new software version in production by gradually rolling out the change to a small subset of users before rolling it out to the entire infrastructure.",
+    "ref": "D. Sato, “bliki: CanaryRelease,” martinfowler.com, 2014. https://martinfowler.com/bliki/CanaryRelease.html"
+},
+{
+    "id": 46,
+    "term": "Load Balancer",
+    "desc": "A device or service that distributes incoming network traffic across multiple servers to ensure no single server is overwhelmed with too much demand and to increase redundancy and reliability.",
+    "ref": "“What is a Load Balancer?,” digitalocean.com, Apr. 10, 2020. https://www.digitalocean.com/community/tutorials/what-is-load-balancing"
+},
+{
+    "id": 47,
+    "term": "OpsGenie",
+    "desc": "An incident management platform that ensures critical incidents are never missed, and actions are taken by the right people in the shortest possible time.",
+    "ref": "“What is OpsGenie?,” www.atlassian.com, Jan. 20, 2022. https://www.atlassian.com/software/opsgenie"
+},
+{
+    "id": 48,
+    "term": "SLO (Service Level Objective)",
+    "desc": "A target level of service that is agreed upon and aimed to be achieved over a certain period.",
+    "ref": "[1]“Google - Site Reliability Engineering,” sre.google. https://sre.google/sre-book/service-level-objectives/"
+},
+{
+    "id": 49,
+    "term": "AIOps (Artificial Intelligence for IT Operations)",
+    "desc": "A method of using artificial intelligence (AI) for automating and enhancing IT operations.",
+    "ref": "[1]“What is AIOps? Artifical Intelligence for IT Operations,” ScienceLogic. https://sciencelogic.com/product/resources/what-is-aiops (accessed Sep. 16, 2023)."
+},
+{
+    "id": 50,
+    "term": "ConfigMap",
+    "desc": "A Kubernetes object used to store and manage non-confidential data in key-value pairs, separate from containerized applications.",
+    "ref": "“ConfigMap,” kubernetes.io, Apr. 12, 2022. https://kubernetes.io/docs/concepts/configuration/configmap/"
+}
 
 
 
